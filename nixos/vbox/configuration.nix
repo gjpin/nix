@@ -18,6 +18,7 @@
     ../_shared/gnome.nix
     ../_shared/impermanence.nix
     ../_shared/locale.nix
+    ../_shared/packages.nix
     ../_shared/pipewire.nix
     ../_shared/podman.nix
     ../_shared/quietboot.nix
