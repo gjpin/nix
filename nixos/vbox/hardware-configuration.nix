@@ -34,8 +34,6 @@ in
     };
 
     supportedFilesystems = [ "btrfs" ];
-
-    kernelPackages = pkgs.linuxPackages_latest;
   };
 
   fileSystems = {

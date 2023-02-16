@@ -40,4 +40,4 @@ sudo mount --mkdir /dev/nvme0n1p1 /mnt/boot
 mkdir -p ~/.config/nix
 echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 
-echo "Run \"sudo nixos-install --flake .#hostname\""
+echo "Run \"sudo nixos-install --no-root-passwd --flake .#hostname\""

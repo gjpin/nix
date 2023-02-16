@@ -5,8 +5,16 @@ cd nix
 ./bootstrap.sh
 sudo nixos-install --no-root-passwd --flake .#hostname
 
-reboot
+reboot and login
+
 passwd
+nix-shell home-manager
+home-manager switch --flake .#username@hostname
+```
+
+# Update
+```bash
+sudo nixos-rebuild switch --flake .#hostname
 
 home-manager switch --flake .#username@hostname
 ```

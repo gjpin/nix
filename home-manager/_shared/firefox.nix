@@ -8,12 +8,13 @@ in
   programs.firefox = {
     enable = true;
     profiles.zero = {
-      extensions = with addons; [
-        ublock-origin
-        bitwarden
-        multi-account-containers
-        floccus
-      ];
+      # extensions = with addons; [
+      #   ublock-origin
+      #   bitwarden
+      #   multi-account-containers
+      #   floccus
+      # ];
+      bookmarks = { };
       settings = {
         "media.ffmpeg.vaapi.enabled" = true;
         "browser.tabs.inTitlebar" = 1;

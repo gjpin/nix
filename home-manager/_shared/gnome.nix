@@ -72,17 +72,17 @@
         "gsconnect@andyholmes.github.io"
       ];
 
-      extensions.dark-variant.applications = [
-        "code.desktop"
-        "insomnia.desktop"
-        "spotify.desktop"
-        "gimp.desktop"
-        "com.heroicgameslauncher.hgl.desktop"
-        "obsidian.desktop"
-        "godot.desktop"
-        "blender.desktop"
-        "com.discordapp.Discord.desktop"
-      ];
+      # extensions.dark-variant.applications = [
+      #   "code.desktop"
+      #   "insomnia.desktop"
+      #   "spotify.desktop"
+      #   "gimp.desktop"
+      #   "com.heroicgameslauncher.hgl.desktop"
+      #   "obsidian.desktop"
+      #   "godot.desktop"
+      #   "blender.desktop"
+      #   "com.discordapp.Discord.desktop"
+      # ];
     };
 
     "org/gnome/settings-daemon/plugins/media-keys" = {

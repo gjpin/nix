@@ -5,6 +5,7 @@
       initialPassword = "password";
       isNormalUser = true;
       extraGroups = [
+        "zero"
         "wheel"
         "networkmanager"
         "video"
