@@ -13,7 +13,6 @@
       "/var/lib/systemd/coredump"
       "/var/lib/containers"
       "/etc/NetworkManager/system-connections"
-      { directory = "/home"; user = "zero"; group = "zero"; }
     ];
     files = [
       "/etc/machine-id"
