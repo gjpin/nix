@@ -12,6 +12,8 @@
     excludePackages = [ pkgs.xterm ];
   };
 
+  programs.dconf.enable = true;
+
   # Exclude packages
   environment.gnome.excludePackages = (with pkgs; [
     gnome-tour
