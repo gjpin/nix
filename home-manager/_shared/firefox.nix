@@ -95,9 +95,6 @@ in
         sha256 = "19zj2488ppba02y5c0wv69rd43syvdr8l3lx0vigkf0i9n9grma8";
       });
     };
-    persistence = {
-      "/persist/home/zero".directories = [ ".mozilla/firefox" ];
-    };
   };
 
   home.sessionVariables = {

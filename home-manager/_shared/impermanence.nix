@@ -16,6 +16,7 @@
         ".nixops"
         ".ssh"
         ".local/share/keyrings"
+        ".mozilla/firefox"
       ];
       allowOther = true;
     };

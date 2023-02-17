@@ -58,6 +58,12 @@ in
       neededForBoot = true;
     };
 
+    "/home" = {
+      device = "/dev/disk/by-label/cryptdev";
+      fsType = "btrfs";
+      options = [ "subvol=home" "compress=zstd" "noatime" ];
+    };
+
     "/boot" = {
       device = "/dev/disk/by-label/boot";
       fsType = "vfat";

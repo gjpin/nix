@@ -14,7 +14,7 @@
     ../_shared/firefox.nix
     ../_shared/git.nix
     ../_shared/gnome.nix
-    ../_shared/impermanence.nix
+    #../_shared/impermanence.nix
     ../_shared/neovim.nix
     ../_shared/packages.nix
     ../_shared/ssh.nix
