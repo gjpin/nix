@@ -50,6 +50,3 @@ echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 
 # Install NixOS
 sudo nixos-install --no-root-passwd --flake ".#${HOSTNAME}"
-
-# Change user password
-sudo nixos-enter --root /mnt -c "echo ${USER_PASSWORD} | passwd zero --stdin"
